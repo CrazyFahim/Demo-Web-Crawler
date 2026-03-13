@@ -5,4 +5,7 @@
 
 #!/bin/bash
 
-RUST_LOG=info cargo run
+
+# RUST_LOG=info cargo run
+
+cargo run -- --starting-url https://google.com
